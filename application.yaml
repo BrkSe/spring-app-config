@@ -5,4 +5,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:9012/eureka}
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost:8761/eureka}
